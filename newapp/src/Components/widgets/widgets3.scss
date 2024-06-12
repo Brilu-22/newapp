@@ -1,0 +1,62 @@
+.widget {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px;
+  -webkit-box-shadow: 10px 12px 15px 7px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 12px 15px 7px rgba(125, 124, 124, 0.47);
+  border-radius: 10px;
+  height: 150px;
+
+  .left,
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title {
+      font-weight: bold;
+      font-size: 14px;
+      color: gray;
+    }
+
+    .counter3 {
+      font-size: 28px;
+      font-weight: 600;
+      background: #98002e;
+      background: linear-gradient(
+        to right,
+        #98002e 0%,
+        #f9a01b 50%,
+        #000000 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .players3-name {
+      .name {
+        width: max-content;
+        font-size: 16px;
+
+        &:hover {
+          cursor: pointer;
+          background: #98002e;
+          background: linear-gradient(
+            to right,
+            #98002e 0%,
+            #f9a01b 50%,
+            #000000 100%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+
+    .player img {
+      width: 85px;
+      height: auto;
+    }
+  }
+}

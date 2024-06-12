@@ -1,0 +1,64 @@
+.info-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  background-color: transparent;
+  box-shadow: 10px 12px 15px 7px rgba(125, 124, 124, 0.47);
+  padding: 30px;
+  margin: 20px;
+}
+
+.InfoContainer {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  -webkit-box-shadow: 10px 12px 15px 7px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 12px 15px 7px rgba(125, 124, 124, 0.47);
+  padding: 30px;
+  margin: 20px;
+
+  img.teamLogo {
+    width: 36px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+
+  .status {
+    padding: 5px;
+    border-radius: 5px;
+
+    &.upcoming {
+      color: green;
+      background-color: rgba(1, 139, 27, 0.323);
+    }
+
+    &.game {
+      color: goldenrod;
+      background-color: rgba(218, 165, 32, 0.249);
+    }
+  }
+
+  TableContainer {
+    float: left;
+    width: 480px;
+  }
+  .next {
+    video {
+      width: 350px;
+      height: 480px;
+      margin-left: 20px;
+      object-fit: cover;
+      flex: 1;
+      justify-content: space-between;
+      -webkit-box-shadow: 10px 12px 15px 7px rgba(0, 0, 0, 0.47);
+      box-shadow: 10px 12px 15px 7px rgba(125, 124, 124, 0.47);
+      padding: 10px;
+    }
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+}

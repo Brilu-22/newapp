@@ -1,0 +1,41 @@
+.app.dark {
+  background-color: #000000;
+  color: rgb(194, 193, 193);
+
+  .InfoContainer {
+    background-color: #111;
+
+    .tableCell {
+      color: gray;
+    }
+
+    .css-1ex1afd-MuiTableCell-root {
+      color: beige;
+    }
+  }
+
+  .navbar {
+    border-color: #333;
+
+    .search {
+      border-color: gray;
+    }
+  }
+
+  .sidebar {
+    background-color: #111;
+    border-color: #333;
+
+    hr {
+      border-color: #333;
+    }
+
+    ul {
+      li {
+        &:hover {
+          background-color: #333;
+        }
+      }
+    }
+  }
+}

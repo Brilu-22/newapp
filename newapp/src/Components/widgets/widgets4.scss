@@ -1,0 +1,48 @@
+.widget {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px;
+  -webkit-box-shadow: 10px 12px 15px 7px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 12px 15px 7px rgba(125, 124, 124, 0.47);
+  border-radius: 10px;
+  height: 150px;
+
+  .left,
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title {
+      font-weight: bold;
+      font-size: 14px;
+      color: gray;
+    }
+
+    .counter4 {
+      font-size: 28px;
+      font-weight: 600;
+      background: #1d428a;
+      background: linear-gradient(
+        to right,
+        #1d428a 0%,
+        #ffc72c 50%,
+        #006bb6 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .link {
+      width: max-content;
+      font-size: 12px;
+      border-bottom: 1px solid gray;
+    }
+
+    .player img {
+      width: 80px;
+      height: auto;
+    }
+  }
+}
