@@ -49,7 +49,7 @@ export default function StockPriceChart() {
     );
 
     chartInstance.current = new Chart(myChartRef, {
-      type: "line", // Changed to line graph
+      type: "line",
       data: {
         labels: teamNames,
         datasets: [
@@ -107,6 +107,7 @@ export default function StockPriceChart() {
     <>
       <div>
         <label htmlFor="conference">Select Conference:</label>
+
         <select
           id="conference"
           value={selectedConference}

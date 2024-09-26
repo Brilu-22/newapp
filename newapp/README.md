@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# NBA Statistics Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Video Explanation
 
-## Available Scripts
+- The link below is to a Google Drive recording where I showcase and explain some of the key features of this website:
+  [Code Explanation](https://youtu.be/KaIs5h9Ycyg)
 
-In the project directory, you can run:
+- The link below is a video demonstration of our chat bot feature:
+  [Video Demo](https://youtu.be/seaq3eG_8ZI)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This NBA Statistics Website is a full-stack web application that provides detailed statistics for NBA teams and players. The application includes interactive visualizations, filtering options, and a community element for user interaction.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Interactive Visualizations**: Bar charts and pie charts display various statistics.
+- **Filtering and Sorting**: Users can filter and sort statistics based on different criteria.
+- **Community Interaction**: Users can post, create, and interact with content.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup and Installation
 
-### `npm run build`
+1. **Clone the Repository**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```
+   git clone https://github.com/Brilu-22/newapp
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Backend Setup**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   - Navigate to the `backend` directory:
+     ```
+     cd newapp/backend
+     ```
+   - Install dependencies:
+     ```
+     npm install
+     ```
+   - Start the backend server:
+     ```
+     npm start
+     ```
 
-### `npm run eject`
+3. **Frontend Setup**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   - Navigate to the `frontend` directory:
+     ```
+     cd newapp
+     ```
+   - Install dependencies:
+     ```
+     npm install
+     ```
+   - Start the React development server:
+     ```
+     npm start
+     ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Open the Application**:
+   - Once both the backend and frontend servers are running, open your browser and navigate to `http://localhost:3000` to access the website.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Backend**:
+  - Node.js
+  - Express.js
+- **Frontend**:
+  - React
+  - Axios
+  - React Router
+  - React Bootstrap
+- **Styling**:
+  - CSS (with optional frameworks like Bootstrap or Material-UI)
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Homepage**:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   - View detailed statistics for different NBA teams.
+   - Click on player widgets to open modals with more information.
+   - Explore the bar graph showing the monthly points and assists for the Boston Celtics.
+   - Watch the snippet video featuring the best dunks.
+   - Use the side navigation bar to access different sections.
 
-### Code Splitting
+2. **Compare Page**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   - Watch the header video showcasing the recent top 100 NBA dunks.
+   - View and compare the wins and losses of teams in both the Eastern and Western Conferences.
+   - Use the pie chart to visualize the win-loss ratio for selected teams.
 
-### Analyzing the Bundle Size
+3. **Timeline Page**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   - Watch the header video highlighting recent NBA moments.
+   - View game points for players in the 2020 season.
+   - Explore conference ranks for teams in the 2021 Eastern Conference using bar charts.
+   - Analyze historical performance data and visual comparisons of players and teams.
 
-### Making a Progressive Web App
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project was developed by Lebogang Hlongwane as an assignment for Open Window DV200.
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
